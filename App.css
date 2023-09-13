@@ -1,0 +1,42 @@
+body{
+  background: linear-gradient(135deg, #FF6B6B, #FFD166);
+
+
+}
+input{
+  height: 35px;
+  width: 255px;
+  display: grid;
+  grid-template-columns: max-content;
+  border-radius: 5px;
+}
+.form{
+  margin: 35px;
+  padding: 6px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: orange;
+  border-radius: 25px;
+ 
+}
+button{
+  height: 25;
+  width: 120px;
+  margin: 5px;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  border-radius: 15px;
+  border: 1px solid orange;
+  font-size: larger;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out;
+}
+button:hover{
+  background: red;
+  transform: scale(1.1);
+  color: #fff;
+ 
+}
