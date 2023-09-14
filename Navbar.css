@@ -1,0 +1,35 @@
+.navbar {
+  height: 65px;
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom right, #3498db, #1abc9c);
+
+}
+.nav-btn{
+    background: blanchedalmond;
+    margin: 12px;
+    padding: 8px;
+}
+.nav-btn:hover{
+    background: black;
+}
+.search{
+    margin: 12px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    
+}
+.search-btn{
+    height: 35px;
+    margin: 12px;
+    padding: 8px;
+    background: darkblue;
+    color: bisque;
+    border-radius: 5px;
+}
+.search-btn:hover{
+    background: white;
+    color: darkgoldenrod;
+}
